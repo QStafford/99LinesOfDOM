@@ -9,6 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.appendChild(button)
 
     button.addEventListener("click", function () {
+        let friendDiv = document.createElement('div')
+        friendDiv.className = 'friend'
+
+        let friendNameHeader = document.createElement('h3')
+        friendDiv.appendChild(friendNameHeader)
+
         for (let i = 0; i < friends.length; i++) {
             for (let j = 99; j > 0; j--) {
                 if (j > 2) {
@@ -30,10 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     })
-    let friendDiv = document.createElement('div')
-    friendDiv.className = 'friend'
-    
-    let friendNameHeader = document.createElement('h3')
-    friendDiv.appendChild(friendNameHeader)
+
 
 })
