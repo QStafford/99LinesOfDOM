@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let friendNameHeader = document.createElement('h3')
         friendDiv.appendChild(friendNameHeader)
 
+        let lyrics = document.createElement('p')
+        
         for (let i = 0; i < friends.length; i++) {
             for (let j = 99; j > 0; j--) {
                 if (j > 2) {
