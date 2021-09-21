@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.appendChild(button)
 
     button.addEventListener("click", function(){
-
+        
     })
 
 })
