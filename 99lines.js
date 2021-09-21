@@ -30,6 +30,10 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
     })
+    let friendDiv = document.createElement('div')
+    friendDiv.className = 'friend'
     
+    let friendNameHeader = document.createElement('h3')
+    friendDiv.appendChild(friendNameHeader)
 
 })
